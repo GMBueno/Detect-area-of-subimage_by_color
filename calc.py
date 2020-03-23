@@ -2,7 +2,7 @@ from PIL import Image
 
 '''
 This script calculates how many white pixels there are in the given image
-Used to calculate percentage of a intersection once. John asked me to
+Can and was used to calculate percentage of a intersection once.
 '''
 
 img = Image.open('original_area.png') # Can be many different formats.

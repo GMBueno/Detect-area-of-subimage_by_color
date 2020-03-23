@@ -1,0 +1,23 @@
+### Calculates how many white pixels there are in the given image
+
+Can and was used to calculate percentage of a intersection once. Just for fun.
+Sample files included
+
+### to run
+
+run
+```shell
+python calc.py
+```
+
+### Personalize it
+
+You will need 2 images. First paint in white whatever part of the first image
+you want to know the area. The rest of the image must not be in white.
+Then, in a second image, paint in white the part of the image you want to know
+what percentage of area it represents in relation to the first image.
+
+Run the script. Make sure the generated images reflect the parts you wanted it
+to detect. The parts will be painted in blue (0,0,255).
+
+If it reflects what you expected, the percentage should be correct.
