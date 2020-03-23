@@ -18,7 +18,7 @@ field_area = 0
 for row in range(0,size[0]):
     for col in range(0,size[1]):
         pixel = pix[row,col]
-        if(pixel[0] > 230 and pixel[1] > 230 and pixel[2] > 230):
+        if(pixel[0] > 200 and pixel[1] > 200 and pixel[2] > 200):
             pix[row,col] = (0,0,255)
             field_area += 1
 img.save('detected_area.png')  # Save the modified pixels as .png
@@ -34,7 +34,7 @@ intersec_area = 0
 for row in range(0,size[0]):
     for col in range(0,size[1]):
         pixel = pix[row,col]
-        if(pixel[0] > 230 and pixel[1] > 230 and pixel[2] > 230):
+        if(pixel[0] > 200 and pixel[1] > 200 and pixel[2] > 200):
             pix[row,col] = (0,0,255)
             intersec_area += 1
 img.save('detected_intersec.png')  # Save the modified pixels as .png
